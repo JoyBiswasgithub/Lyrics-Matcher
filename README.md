@@ -39,7 +39,7 @@ streamlit run app.py
 
 
 # 📂 Project Structure
-
+```
 lyrics-matcher/
 │── data/
 │   ├── song_info.csv
@@ -51,3 +51,4 @@ lyrics-matcher/
 │── embedding.ipynb  # Jupyter Notebook for converting data to embeddings
 │── requirements.txt
 │── README.md
+```
