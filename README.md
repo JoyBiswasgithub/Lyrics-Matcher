@@ -3,5 +3,11 @@ Lyrics Matcher is a machine learning-powered web application that helps users id
 
 
 # 📥 Installation
+
 1️⃣ Prerequisites 
+Python 3.8+ installed on your system
+
+2️⃣ Clone the Repository
+git clone https://github.com/yourusername/lyrics-matcher.git
+cd lyrics-matcher
 
