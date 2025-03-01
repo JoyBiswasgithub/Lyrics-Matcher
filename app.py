@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer, util
 model=SentenceTransformer('sentence_transformer_model')
 # Load Embedding and Song Details
 embeddings = torch.load("embeddings.pt")
-song_info = pd.read_csv("song_info.csv")
+song_info = pd.read_csv("data/song_info.csv")
 
 # Find similar song
 def find_similar_song(lyrics, top_k=3):
