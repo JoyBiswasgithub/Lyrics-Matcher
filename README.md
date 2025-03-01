@@ -18,21 +18,21 @@ Pandas & NumPy
 #  Installation
 
 1️⃣ Prerequisites 
-Python 3.8+ installed on your system
+Python 3.8+ installed 
 
 
 2️⃣ Clone the Repository
-git clone https://github.com/yourusername/lyrics-matcher.git
+```git clone https://github.com/yourusername/lyrics-matcher.git```
 
-cd lyrics-matcher
+```cd lyrics-matcher```
 
 3️⃣ Install Dependencies
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # ▶️ Running the Application
 
-streamlit run app.py
+```streamlit run app.py```
 
 
 # Live 
