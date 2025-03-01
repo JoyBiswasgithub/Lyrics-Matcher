@@ -2,6 +2,7 @@
 Lyrics Matcher is a machine learning-powered web application that helps users identify songs and artists based on a snippet of lyrics. It leverages Sentence Transformers for natural language processing and PyTorch for similarity search.
 
 
+
 # 📥 Installation
 
 1️⃣ Prerequisites 
@@ -14,5 +15,6 @@ git clone https://github.com/yourusername/lyrics-matcher.git
 cd lyrics-matcher
 
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
