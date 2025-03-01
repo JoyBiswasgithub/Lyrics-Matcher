@@ -30,12 +30,12 @@ Python 3.8+ installed
 
 ```pip install -r requirements.txt```
 
-# ▶️ Running the Application
+# Running the Application
 
 ```streamlit run app.py```
 
 
-## 🌍 Live Demo
+# 🌍 Live Demo
 
 [🔗 Live Application](https://lyrics-matcher-app.streamlit.app/)
 
