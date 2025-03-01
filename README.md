@@ -22,7 +22,7 @@ Python 3.8+ installed
 
 
 2️⃣ Clone the Repository
-```git clone https://github.com/yourusername/lyrics-matcher.git```
+```git clone https://github.com/JoyBiswasgithub/Lyrics-Matcher.git```
 
 ```cd lyrics-matcher```
 
@@ -35,7 +35,9 @@ Python 3.8+ installed
 ```streamlit run app.py```
 
 
-# Live 
+## 🌍 Live Demo
+
+[🔗 Live Application](https://lyrics-matcher-app.streamlit.app/)
 
 
 # 📂 Project Structure
