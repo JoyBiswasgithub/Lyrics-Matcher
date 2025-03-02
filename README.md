@@ -23,7 +23,7 @@ Python 3.8+ installed
 
 **2️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/JoyBiswasgithub/Lyrics-Matcher.git```
+git clone https://github.com/JoyBiswasgithub/Lyrics-Matcher.git
 cd lyrics-matcher
 ```
 
