@@ -40,8 +40,7 @@ if st.button("Find Song"):
         if result[0]['score'] < .4:
             st.error("No matching song found. Try a different lyrics!")
         else:
-            st.subheader("Most Recommended")
-            st.write(f"Song Name: {result[0]['song']}  \nArtist Name: {result[0]['artist']}")
+            st.subheader(f"Song Name: {result[0]['song']}  \nArtist Name: {result[0]['artist']}")
            
     else:
         st.warning("Please enter some lyrics.")
