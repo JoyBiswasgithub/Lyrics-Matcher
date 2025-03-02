@@ -3,7 +3,7 @@ Lyrics Matcher is a machine learning-powered web application that helps users id
 
 
 # Technologies Used
-
+```
 Python 
 
 PyTorch 
@@ -13,7 +13,7 @@ Sentence Transformers
 Streamlit 
 
 Pandas & NumPy 
-
+```
 
 #  Installation
 
@@ -22,17 +22,21 @@ Python 3.8+ installed
 
 
 2️⃣ Clone the Repository
-```git clone https://github.com/JoyBiswasgithub/Lyrics-Matcher.git```
+```bash
+git clone https://github.com/JoyBiswasgithub/Lyrics-Matcher.git```
 
-```cd lyrics-matcher```
+```bash
+cd lyrics-matcher```
 
 3️⃣ Install Dependencies
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt```
 
 # Running the Application
 
-```streamlit run app.py```
+```bash
+streamlit run app.py```
 
 
 # 🌍 Live Demo
