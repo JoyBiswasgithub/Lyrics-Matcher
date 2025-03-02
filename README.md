@@ -12,7 +12,7 @@ Sentence Transformers
 
 Streamlit 
 
-Pandas & NumPy 
+Pandas
 ```
 
 #  Installation
