@@ -52,6 +52,7 @@ lyrics-matcher/
 │── sentence_transformer_model/
 │── embeddings.pt
 │── app.py  # Main application for similarity search and deployment
+|── test.py  # Evaluation
 │── data_cleaning.ipynb  # Jupyter Notebook for data cleaning
 │── embedding.ipynb  # Jupyter Notebook for converting data to embeddings
 │── requirements.txt
