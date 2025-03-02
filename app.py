@@ -11,7 +11,7 @@ embeddings = torch.load("embeddings.pt")
 song_info = pd.read_csv("data/song_info.csv")
 
 # Find similar song
-def find_similar_song(lyrics, top_k=3):
+def find_similar_song(lyrics, top_k=1):
     input_embedding = model.encode(lyrics, convert_to_tensor=True)
     similarities = util.pytorch_cos_sim(input_embedding, embeddings)[0]
     top_results = torch.topk(similarities, k=top_k)
@@ -41,11 +41,8 @@ if st.button("Find Song"):
             st.error("No matching song found. Try a different lyrics!")
         else:
             st.subheader("Most Recommended")
-            st.write(f"1.  Song Name: {result[0]['song']}  \nArtist Name: {result[0]['artist']}")
-            
-            st.subheader("Other Recommendation")
-            st.write(f"2.  Song Name: {result[1]['song']}  \nArtist Name: {result[1]['artist']}")
-            st.write(f"2.  Song Name: {result[2]['song']}  \nArtist Name: {result[2]['artist']}")
+            st.write(f"Song Name: {result[0]['song']}  \nArtist Name: {result[0]['artist']}")
+           
     else:
         st.warning("Please enter some lyrics.")
 
